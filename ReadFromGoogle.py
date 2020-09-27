@@ -3,8 +3,6 @@ import gspread
 from df2gspread import gspread2df as g2d
 from oauth2client.service_account import ServiceAccountCredentials
 
-from WriteToGoogle import write
-
 scope = ['https://www.googleapis.com/auth/spreadsheets']
 
 def readFromGoogle(SPREADSHEET_KEY, WORKSHEET_NAME):
